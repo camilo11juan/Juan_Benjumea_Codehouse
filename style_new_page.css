@@ -1,0 +1,290 @@
+* {
+    font-family: "Montserrat", sans-serif;
+
+}
+
+/*HEADER*/
+
+.div_header_portada {
+    background-color: rgba(29, 170, 226, 1);
+    text-align: center;
+}
+
+.img_portada_header {
+    width: auto;
+    height: 8svw;
+}
+
+
+.ul_nav_header {
+    margin: 0px;
+    padding: 0px;
+    border: 2px solid white;
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+
+.ul_nav_header li {
+    flex: 1;
+    border: 2px solid rgba(29, 170, 226, 1);
+}
+
+/*------*/
+
+
+/*MAIN*/
+
+#main {
+    height: 400px;
+}
+
+.div_main_search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px
+}
+
+.inputSearch {
+    border-radius: 15px;
+    height: 30px;
+}
+
+.section1 {
+    margin-top: 5px;
+    padding: 0 5%;
+}
+
+.containerPlaces {
+    display: flex;
+    gap: 15px;
+}
+
+.bestPlaces {
+    border: 2px solid rgba(29, 170, 226, 1);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+
+.imgBestplaces {
+    border: 2px solid;
+    width: auto;
+    height: 150px;
+}
+
+.section2 {
+    padding: 0 5%;
+    margin-top: 50px;
+}
+
+.divSection2 {
+    display: flex;
+    gap: 50px;
+
+}
+
+.section3 {
+    margin-top: 50px;
+    padding: 0 5% 5%;
+}
+
+.divSection3 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.comunidad {
+    width: 500px;
+    height: auto;
+}
+
+.form_button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.div_form_general {
+    height: fit-content;
+    display: flex;
+    gap: 50px;
+
+}
+
+.form1 {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.form2 {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.div_input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.div_input input,
+select {
+    height: 35px;
+
+}
+
+.enviar_comunidad {
+    width: 90px;
+    height: 35px;
+    border-radius: 5px;
+    text-shadow: 30px;
+    border-color: white;
+    background-color: rgba(29, 170, 226, 1);
+
+}
+/*-----*/
+
+
+/*FOOTER*/
+.div_footer {
+    background-color: rgba(29, 170, 226, 1);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img_logo_footer {
+    width: 150px;
+    height: 150px;
+}
+
+.div_footer_enlaces {
+    margin-right: 50px;
+}
+
+.list_enlaces_footer {
+    list-style: none;
+}
+
+h3 {
+    margin: 0;
+}
+
+.div_footer_redes_iconos {
+    text-align: center;
+}
+
+.icon_footer {
+
+    width: 50px;
+    height: 50px;
+}
+
+/*-----*/
+#animaciones {
+    background-color: aqua;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.animaciones_box  {
+    border: 3px solid red;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    gap: 20px;
+} 
+
+.caja {
+        background-color: white;
+        width: 100px;
+        height: 100px;
+}
+
+
+.box_tr1:hover {
+    transform: rotate(360deg);
+    transition: 2s;
+}
+
+.box_1:hover {
+    transform: skew(20deg, 20deg);
+    transition: 1s;
+}
+
+.box_ani1:hover {
+width: 250px;
+height: 600px;
+transition: height .5s,width .5s;
+}
+
+.box_ani2:active {
+    width: 30px;
+    height: 20px;
+    animation-name: animacion_1;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+
+}
+
+@keyframes animacion_1 {
+    0% {
+        width: 50px;
+        height: 30px;
+    }
+
+    5% {
+        height: 50px;
+    }
+
+    10% {
+        height: 70px;
+    }
+
+    15% {
+        height: 100px;
+    }
+    
+    20% {
+        height: 100px
+        background-color: green;
+    }
+
+    50% {
+        width: 200px;
+        background-color: yellow;
+    }
+
+    100% {
+        width: 20px;
+        background-color: blue;
+    }
+}
+
+.box_pr3 {
+    height: 200px;
+    width: 300px;
+    background-color: aliceblue;
+}

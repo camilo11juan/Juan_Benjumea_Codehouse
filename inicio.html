@@ -35,32 +35,27 @@
 
     <main>
         <!--Campo de busqueda-->
-        <div class="div_main_search">
-            <p>¿A donde quieres ir hoy</p>
-            <input class="inputSearch" type="text" placeholder="Colombia">
-        </div>
+        <main id="main">
+            <div class="div_main_search">
+                    <h1>Inicio</h1>
+                    <p style="text-align: right;">¿A donde quieres ir hoy</p>
+                    <input class="inputSearch" type="text" placeholder="Colombia">
+            </div> 
 
-
+<!---Mejores lugares de LA para Web-->
         <section class="section1">
             <h1>Los mejores lugares de Latinoamerica</h1>
             <div class="containerPlaces">
-                
 
                 <div class="bestPlaces">
-
                     <h3>Santa Marta</h3>
                     <img src="/multimedia/SantaMarta.jpg" alt="Santa Marta" class="imgBestplaces">
-
-
-
                     <p>Santa Marta es puro sabor. Es una ciudad donde la diversidad está totalmente presente en su
                         paisaje, en su gente y en cada aspecto cultural que la compone; es un destino que acoge a todos
                         sus visitantes y los hace sentir como en casa. ¿Qué la hace única? Su principal característica
                         es su territorio: paisajes inolvidables en los que el verde de su vegetación, sus montañas, el
                         azul de sus mares, el amarillo del sol y el contraste de las playas con el blanco de la Sierra
                         Nevada, hacen de este paraíso un destino obligado.</p>
-
-
                 </div>
 
                 <div class="bestPlaces">
@@ -71,8 +66,7 @@
                         segunda región urbana más grande de Sudamérica. Buenos Aires es una ciudad que siempre está en
                         movimiento. Su faceta cultural se ve reflejada en la gran cantidad y variedad de museos,
                         teatros, galerías artísticas y bibliotecas. Su variada oferta de actividades y alojamientos,
-                        contribuyen a que Buenos Aires reciba más de 4 millones de turistas al año y sea una de las
-                        ciudades más visitadas de Sudamérica.</p>
+                        contribuyen a que Buenos Aires reciba más de 4 millones de turistas al año.</p>
                 </div>
 
                 <div class="bestPlaces">
@@ -95,18 +89,85 @@
                         segunda más segura. Es una ciudad de clase alfa, moderna y competitiva, que también cuenta con
                         alrededores naturales ideales para actividades al aire libre y relajarse. Santiago es sede de
                         los principales edificios administrativos y de gobierno de Chile. Cuenta con 37 comunas, 26 de
-                        las cuales se encuentran en la zona metropolitana. En ellas encontramos entretenidos barrios con
-                        una dinámica vida nocturna, restaurantes, tiendas de diseño y galerías de arte para conocer.</p>
+                        las cuales se encuentran en la zona metropolitana. </p>
                 </div>
 
             </div>
         </section>
+<!---------------------------------------------------->
 
+<!--RESPONSIVE Mejores lugares de LA para Mobile-->
+
+            <div id="carouselExample" class="carousel slide mobile">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="bestPlaces">
+                            <h3>Santa Marta</h3>
+                            <img src="/multimedia/SantaMarta.jpg" alt="Santa Marta" class="imgBestplaces">
+                            <p>Santa Marta es puro sabor. Es una ciudad donde la diversidad está totalmente presente en su
+                            paisaje, en su gente y en cada aspecto cultural que la compone; es un destino que acoge a todos
+                            sus visitantes y los hace sentir como en casa. ¿Qué la hace única? Su principal característica
+                            es su territorio: paisajes inolvidables en los que el verde de su vegetación, sus montañas, el
+                            azul de sus mares, el amarillo del sol y el contraste de las playas con el blanco de la Sierra
+                            Nevada, hacen de este paraíso un destino obligado.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="bestPlaces">
+                        <h3>Buenos Aires</h3>
+                            <img src="/multimedia/BuenosAires.jpg" alt="Santa Marta" class="imgBestplaces">
+                            <p>La Ciudad Autónoma de Buenos Aires es la capital de la República Argentina. Las aguas del Río de
+                            la Plata bañan su costa y la convierten en el centro político y económico del país. Es la
+                            segunda región urbana más grande de Sudamérica. Buenos Aires es una ciudad que siempre está en
+                            movimiento. Su faceta cultural se ve reflejada en la gran cantidad y variedad de museos,
+                            teatros, galerías artísticas y bibliotecas. Su variada oferta de actividades y alojamientos,
+                            contribuyen a que Buenos Aires reciba más de 4 millones de turistas al año y sea una de las
+                            ciudades más visitadas de Sudamérica.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="bestPlaces">
+                            <h3>Lima</h3>
+                            <img src="/multimedia/Lima.jpg" alt="Santa Marta" class="imgBestplaces">
+                            <p>Lima, “La Ciudad de los Reyes”, es un Centro Histórico declarado Patrimonio Cultural de la
+                            Humanidad y la “Capital Gastronómica de Latinoamérica”.
+                            Lima es la única capital en América del Sur con salida al mar (Océano Pacífico), por lo que
+                            posee hermosos malecones donde puedes pasear y relajarte.
+                            Sus playas son ideales para los surfistas y tiene el clima perfecto para volar en parapente.
+                            También, puedes conocer sus iglesias y casonas con balcones coloniales que contrastan con
+                            modernos edificios.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="bestPlaces">
+                            <h3>Santiago</h3>
+                            <img src="/multimedia/santiago.jpg" alt="Santa Marta" class="imgBestplaces">
+                            <p>Santiago es la capital de Chile y es considerada la tercera ciudad de Sudamérica con mejor
+                                calidad de vida y la segunda mejor ciudad para hacer negocios en Latinoamérica, además de la
+                                segunda más segura. Es una ciudad de clase alfa, moderna y competitiva, que también cuenta con
+                                alrededores naturales ideales para actividades al aire libre y relajarse. Santiago es sede de
+                                los principales edificios administrativos y de gobierno de Chile. Cuenta con 37 comunas, 26 de
+                                las cuales se encuentran en la zona metropolitana. En ellas encontramos entretenidos barrios con
+                                una dinámica vida nocturna, restaurantes, tiendas de diseño y galerías de arte para conocer.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+<!---------------------------------------------------->
         <section class="section2">
             <h2>Destino de la semana y recomendado</h2>
             <div class="divSection2">
                 <div>
-                    <iframe width="720" height="400" src="https://www.youtube.com/embed/71grjeRzUJs?si=HrHZgyVxOW6s2OZX"
+                    <iframe class="divVideo" src="https://www.youtube.com/embed/71grjeRzUJs?si=HrHZgyVxOW6s2OZX"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -114,13 +175,7 @@
 
                 <div class="text_video">
                     <h3>Playas de Sao Pablo</h3>
-                    <p>Por lo general, la ciudad más grande de Brasil es considerada un mero centro de negocios, pero el reciente resurgimiento cultural de São Paulo, por sus museos, galerías y vida nocturna, está incrementando el número de visitantes. Esta compacta ciudad tiene uno de los paisajes más impresionantes del mundo. Descubre muchos sitios históricos bajo los elevados rascacielos.
-
-                        Encontrarás muchas cosas por explorar más allá del centro de la ciudad: los parques y jardines son sitios muy frecuentados los fines de semana. Aunque hablar portugués te facilitará mucho las cosas, en la mayoría de las atracciones principales se habla español e inglés.
-                        
-                        Puedes visitar el extenso Parque Ibirapuera, un área verde muy popular. Las orillas de sus lagos llenas de árboles son lugares perfectos para relajarse, y las muchas instituciones culturales en la zona son muy recomendables para pasar la tarde. Visita el Auditorio Ibirapuera para disfrutar de conciertos al aire libre.
-
-                    </p>
+                    <p>Por lo general, la ciudad más grande de Brasil es considerada un mero centro de negocios, pero el reciente resurgimiento cultural de São Paulo, por sus museos, galerías y vida nocturna, está incrementando el número de visitantes. Esta compacta ciudad tiene uno de los paisajes más impresionantes del mundo. Descubre muchos sitios históricos bajo los elevados rascacielos. Encontrarás muchas cosas por explorar más allá del centro de la ciudad: los parques y jardines son sitios muy frecuentados los fines de semana. Aunque hablar portugués te facilitará mucho las cosas, en la mayoría de las atracciones principales se habla español e inglés.Puedes visitar el extenso Parque Ibirapuera, un área verde muy popular. Las orillas de sus lagos llenas de árboles son lugares perfectos para relajarse, y las muchas instituciones culturales en la zona son muy recomendables para pasar la tarde.</p>
                 </div>
             </div>
         </section>

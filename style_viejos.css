@@ -357,6 +357,40 @@ transition: height .5s,width .5s;
 
 }
 
+@keyframes animacion_1 {
+    0% {
+        width: 50px;
+        height: 30px;
+    }
+
+    5% {
+        height: 50px;
+    }
+
+    10% {
+        height: 70px;
+    }
+
+    15% {
+        height: 100px;
+    }
+    
+    20% {
+        height: 100px
+        background-color: green;
+    }
+
+    50% {
+        width: 200px;
+        background-color: yellow;
+    }
+
+    100% {
+        width: 20px;
+        background-color: blue;
+    }
+}
+
 .box_pr3 {
     height: 200px;
     width: 300px;

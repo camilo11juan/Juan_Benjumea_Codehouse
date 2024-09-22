@@ -1,0 +1,29 @@
+.section1 {
+    margin-top: 5px;
+    padding: 0 5%;
+    width: 100%;
+  }
+  
+  .containerPlaces {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+  }
+  
+  .bestPlaces {
+    background-color: rgb(217, 217, 217);
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  .imgBestplaces {
+    border: 2px solid;
+    width: 90%;
+    height: 200px;
+  }

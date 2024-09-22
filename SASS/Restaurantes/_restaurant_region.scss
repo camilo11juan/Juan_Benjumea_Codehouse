@@ -1,0 +1,69 @@
+/*--RESTAURANTES--*/
+.imgResta {
+    border: 2px solid rgb(0, 0, 0);
+    height: 150px;
+    width: 150px;
+  }
+  
+  .restSection1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0 5%;
+    margin-bottom: 5%;
+  }
+  
+  .sec1paises {
+    background-color: rgb(217, 217, 217);
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+  }
+  
+  .sec1paises h2:first-child {
+    background-color: aqua;
+    grid-column-start: span 2;
+    grid-row-start: span 1;
+    text-align: center;
+  }
+  
+  .articleRestaurantes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 4% 1% 4%;
+  }
+  
+  /*RESPONSIVE Restaurantes*/
+  .section1Response {
+    margin-bottom: 5%;
+  }
+  
+  .mobile {
+    display: none;
+  }
+  
+  .carosuelBack {
+    margin: 0 5%;
+  }
+  
+  .innerRespons {
+    width: 500px;
+    height: auto;
+    padding: 2%;
+    background-color: rgb(217, 217, 217);
+  }
+  
+  .carousel h2 {
+    background-color: aqua;
+    text-align: center;
+    margin: 0;
+  }
+  
+  #carouselExample2 {
+    margin-top: 20px;
+  }

@@ -1,0 +1,24 @@
+/*HEADER*/
+.div_header_portada {
+    background-color: rgb(29, 170, 226);
+    text-align: center;
+  }
+  
+  .img_portada_header {
+    width: auto;
+    height: 8svw;
+  }
+  
+  .ul_nav_header {
+    margin: 0px;
+    padding: 0px;
+    border: 2px solid white;
+    list-style: none;
+    display: flex;
+    text-align: center;
+  }
+  
+  .ul_nav_header li {
+    flex: 1;
+    border: 2px solid rgb(29, 170, 226);
+  }

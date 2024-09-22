@@ -1,3 +1,4 @@
+/*ESTILOS GENERALES*/
 * {
   font-family: "Montserrat", sans-serif;
   margin: 0;
@@ -28,8 +29,6 @@
   border: 2px solid rgb(29, 170, 226);
 }
 
-/*------*/
-/*MAIN*/
 #main {
   height: auto;
   margin: 0;
@@ -55,6 +54,107 @@
   height: 30px;
 }
 
+/*FOOTER*/
+.div_footer {
+  background-color: rgb(29, 170, 226);
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.img_logo_footer {
+  width: 150px;
+  height: 150px;
+}
+
+.div_footer_enlaces {
+  margin-right: 50px;
+}
+
+.list_enlaces_footer {
+  list-style: none;
+}
+
+h3 {
+  margin: 0;
+}
+
+.div_footer_redes_iconos {
+  text-align: center;
+}
+
+.icon_footer {
+  width: 50px;
+  height: 50px;
+}
+
+@media (max-width: 1100px) {
+  .mobile {
+    display: block;
+  }
+  .restSection1 {
+    display: none;
+  }
+}
+@media (max-width: 1100px) {
+  .restSection1 {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+}
+@media (max-width: 1100px) {
+  .containerPlaces {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  .bestPlaces {
+    padding: 0 8% 2% 8%;
+  }
+  .imgBestplaces {
+    width: 80%;
+    height: auto;
+  }
+}
+@media (max-width: 1000px) {
+  .divSection2 {
+    flex-direction: column;
+  }
+  .text_video {
+    width: 100%;
+    height: auto;
+  }
+  .divVideo {
+    width: 100%;
+    height: 400px;
+  }
+}
+@media (max-width: 800px) {
+  .divSection3 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .divComunidad {
+    width: 70svw;
+  }
+  .form_button {
+    width: 80vw;
+  }
+}
+@media (max-width: 800px) {
+  .div_footer {
+    display: block;
+    text-align: center;
+    gap: 200px;
+  }
+}
+/*INDEX*/
 .section1 {
   margin-top: 5px;
   padding: 0 5%;
@@ -185,6 +285,25 @@
   background-color: rgb(29, 170, 226);
 }
 
+.prueba {
+  background-color: purple;
+  border: 2px solid red;
+}
+.prueba p {
+  background-color: blue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.prueba2 {
+  background-color: rgb(4, 0, 255);
+  border: 4px dotted red;
+}
+.prueba2 .titulonew {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border: 2px dotted yellow;
+}
+
+/*RESTAURANTES*/
 /*--RESTAURANTES--*/
 .imgResta {
   border: 2px solid rgb(0, 0, 0);
@@ -255,164 +374,77 @@
   margin-top: 20px;
 }
 
-/*FOOTER*/
-.div_footer {
-  background-color: rgb(29, 170, 226);
-  padding: 10px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-}
-
-.img_logo_footer {
-  width: 150px;
+/*RESTAURANTES*/
+/*--RESTAURANTES--*/
+.imgResta {
+  border: 2px solid rgb(0, 0, 0);
   height: 150px;
+  width: 150px;
 }
 
-.div_footer_enlaces {
-  margin-right: 50px;
+.restSection1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 0 5%;
+  margin-bottom: 5%;
 }
 
-.list_enlaces_footer {
-  list-style: none;
+.sec1paises {
+  background-color: rgb(217, 217, 217);
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
+  grid-template-rows: auto;
+  gap: 20px;
 }
 
-h3 {
-  margin: 0;
-}
-
-.div_footer_redes_iconos {
+.sec1paises h2:first-child {
+  background-color: aqua;
+  grid-column-start: span 2;
+  grid-row-start: span 1;
   text-align: center;
 }
 
-.icon_footer {
-  width: 50px;
-  height: 50px;
-}
-
-/*-----*/
-#animaciones {
-  background-color: aqua;
-  width: 100%;
-  height: 100vh;
+.articleRestaurantes {
   display: flex;
-  gap: 20px;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
-  align-items: center;
+  padding: 0 4% 1% 4%;
 }
 
-.animaciones_box {
-  border: 3px solid red;
-  margin: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  gap: 20px;
+/*RESPONSIVE Restaurantes*/
+.section1Response {
+  margin-bottom: 5%;
 }
 
-.caja {
-  background-color: white;
-  width: 100px;
-  height: 100px;
+.mobile {
+  display: none;
 }
 
-.box_tr1:hover {
-  transform: rotate(360deg);
-  transition: 2s;
+.carosuelBack {
+  margin: 0 5%;
 }
 
-.box_1:hover {
-  transform: skew(20deg, 20deg);
-  transition: 1s;
+.innerRespons {
+  width: 500px;
+  height: auto;
+  padding: 2%;
+  background-color: rgb(217, 217, 217);
 }
 
-.box_ani1:hover {
-  width: 250px;
-  height: 600px;
-  transition: height 0.5s, width 0.5s;
+.carousel h2 {
+  background-color: aqua;
+  text-align: center;
+  margin: 0;
 }
 
-.box_ani2:active {
-  width: 30px;
-  height: 20px;
-  animation-name: animacion_1;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-duration: 5s;
+#carouselExample2 {
+  margin-top: 20px;
 }
 
-.box_pr3 {
-  height: 200px;
-  width: 300px;
-  background-color: aliceblue;
-}
+/*ACTIVIDADES*/
 
-@media (max-width: 1100px) {
-  .mobile {
-    display: block;
-  }
-  .restSection1 {
-    display: none;
-  }
-}
-@media (max-width: 1100px) {
-  .restSection1 {
-    display: none;
-  }
-  .mobile {
-    display: block;
-  }
-}
-@media (max-width: 1100px) {
-  .containerPlaces {
-    display: none;
-  }
-  .mobile {
-    display: block;
-  }
-  .bestPlaces {
-    padding: 0 8% 2% 8%;
-  }
-  .imgBestplaces {
-    width: 80%;
-    height: auto;
-  }
-}
-@media (max-width: 1000px) {
-  .divSection2 {
-    flex-direction: column;
-  }
-  .text_video {
-    width: 100%;
-    height: auto;
-  }
-  .divVideo {
-    width: 100%;
-    height: 400px;
-  }
-}
-@media (max-width: 800px) {
-  .divSection3 {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .divComunidad {
-    width: 70svw;
-  }
-  .form_button {
-    width: 80vw;
-  }
-}
-@media (max-width: 800px) {
-  .div_footer {
-    display: block;
-    text-align: center;
-    gap: 200px;
-  }
-}
-
-/*# sourceMappingURL=style_new_page.css.map */
+/*# sourceMappingURL=style_new.css.map */

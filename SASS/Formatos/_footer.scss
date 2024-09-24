@@ -6,30 +6,30 @@
     justify-content: space-around;
     align-items: center;
     width: 100%;
+  
+    .img_logo_footer {
+      width: 150px;
+      height: 150px;
+    }
+
+    .div_footer_enlaces {
+      margin-right: 50px;
+
+      .list_enlaces_footer {
+        list-style: none;
+      }
+    }
+
+    .div_footer_redes_iconos {
+      text-align: center;
+
+      .icon_footer {
+        width: 50px;
+        height: 50px;
+      }
+    }
   }
   
-  .img_logo_footer {
-    width: 150px;
-    height: 150px;
-  }
   
-  .div_footer_enlaces {
-    margin-right: 50px;
-  }
   
-  .list_enlaces_footer {
-    list-style: none;
-  }
   
-  h3 {
-    margin: 0;
-  }
-  
-  .div_footer_redes_iconos {
-    text-align: center;
-  }
-  
-  .icon_footer {
-    width: 50px;
-    height: 50px;
-  }

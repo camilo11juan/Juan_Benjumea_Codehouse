@@ -1,20 +1,24 @@
 /*ESTILOS GENERALES*/
-@import "formatos/bodycomplete";
-@import "formatos/header";
-@import "formatos/searchCamp";
-@import "formatos/footer";
-@import "formatos/breakpoints";
+@import "Formatos/bodycomplete";
+@import "Formatos/header";
+@import "Formatos/searchCamp";
+@import "Formatos/footer";
+@import "Formatos/breakpoints";
+@import "Formatos/slides";
 
 /*INDEX*/
-@import "index/section1";
-@import "index/section2";
-@import "index/section3";
+@import "Index/section1";
+@import "Index/section2";
+@import "Index/section3";
 
 /*RESTAURANTES*/
-@import "restaurantes/restaurant_region";
+@import "Restaurantes/restaurant_region";
 
-/*RESTAURANTES*/
-@import "restaurantes/restaurant_region";
+/*HOTELES*/
+@import "Hoteles/hotel_region";
 
 /*ACTIVIDADES*/
-@import "actividades/main";
+@import "Actividades/main";
+
+/*BREAKPOINTS*/
+@import "Formatos/breakpoints"

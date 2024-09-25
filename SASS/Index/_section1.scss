@@ -1,29 +1,52 @@
+
 .section1 {
-    margin-top: 5px;
-    padding: 0 5%;
-    width: 100%;
-  }
-  
-  .containerPlaces {
-    display: flex;
-    gap: 15px;
-    width: 100%;
-  }
-  
+  margin-top: 5px;
+  padding: 0 5%;
+  width: 100%;
+}
+    
+.containerPlaces {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+
   .bestPlaces {
     background-color: rgb(217, 217, 217);
     border-radius: 15px;
-    padding: 10px;
+    padding: 25px;
     display: flex;
     flex: 1;
     flex-direction: column;
     align-items: center;
     height: auto;
     margin-top: 10px;
+
+    .imgBestplaces {
+      border: 2px solid;
+      width: 90%;
+      height: 200px;
+    }
   }
+}
+
   
-  .imgBestplaces {
-    border: 2px solid;
-    width: 90%;
-    height: 200px;
+
+/*RESPONSIVE PAISES*/
+
+
+
+  .paisesResponse {
+    margin: 4%;
+    display: none;
+
+    .bestPlacesResponse {
+      background-color: rgb(217, 217, 217);
+      padding: 1%;
+      border-radius: 15px;
+
+      .imgBestplacesResponse {
+        width: 300px;
+        margin-bottom: 15px;
+      }
+    }
   }

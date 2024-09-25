@@ -1,19 +1,127 @@
-@media (max-width: 1100px) {
-    .mobile {
+
+/*INDEX*/
+
+/*SECTION 1*/
+@media (max-width: 1000px) {
+    .paisesResponse {
       display: block;
     }
-    .restSection1 {
+    .containerPlaces {
       display: none;
     }
   }
-  @media (max-width: 1100px) {
+
+/*SECTION 2*/
+@media (max-width: 1000px) {
+  
+  .section2 {
+    padding: 0 5%;
+    width: 100%;
+    height: 800px;
+
+    .divSection2 {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 90%;
+  
+        .divVideo {
+          width: 100%;
+          height: 100%;
+
+          .video1 {
+            width: 100%;
+            height: 100%;
+          }
+
+        }
+
+        .text_video {
+          width: 100%;
+          height: auto;
+        }
+    }
+  }
+}
+
+/*SECTION 3*/
+
+@media (max-width: 1000px) {
+    
+  .section3 {
+    width: 100%;
+
+    .divSection3 {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+
+      .divComunidad {
+        width: 100%;
+
+        .comunidad {
+          width: 100%;
+        }
+      }
+    
+      .form_button {
+        width: 100%;
+      }  
+    }    
+  }
+}
+
+
+/*FOOTER*/
+@media (max-width: 1000px) {
+
+  .div_footer {
+    display: flex;
+    flex-direction: column;
+
+  .div_footer_enlaces{
+    text-align: center;
+  }
+
+  }
+}
+
+
+/*RESTAURANTE*/
+@media (max-width: 1000px) {
+
+  .restSection1 {
+    display: none;
+  }
+
+  .mobileRestaurante {
+    display: block;
+  }
+}
+
+/*HOTELES*/
+@media (max-width: 1000px) {
+
+  .hotelSection1 {
+    display: none;
+  }
+
+  .section1Response {
+    display: block;
+  }
+}
+
+
+
+  /*@media (max-width: 1100px) {
     .restSection1 {
       display: none;
     }
-    .mobile {
+    .mobileRestaurante {
       display: block;
     }
   }
+
   @media (max-width: 1100px) {
     .containerPlaces {
       display: none;
@@ -29,6 +137,7 @@
       height: auto;
     }
   }
+
   @media (max-width: 1000px) {
     .divSection2 {
       flex-direction: column;
@@ -42,6 +151,7 @@
       height: 400px;
     }
   }
+
   @media (max-width: 800px) {
     .divSection3 {
       flex-direction: column;
@@ -55,10 +165,11 @@
       width: 80vw;
     }
   }
+
   @media (max-width: 800px) {
     .div_footer {
       display: block;
       text-align: center;
       gap: 200px;
     }
-  }
+  } */

@@ -1,94 +1,103 @@
+
 .section3 {
     margin-top: 50px;
     padding: 0 5% 5%;
-  }
-  
-  .divSection3 {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    width: 100%;
-  }
-  
-  .divComunidad {
-    width: 50%;
-    text-align: center;
-  }
-  
-  .comunidad {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .form_button {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    width: 50%;
-  }
-  
-  .div_form_general {
-    height: fit-content;
-    display: flex;
-    gap: 20px;
-    width: 100%;
-  }
-  
-  .form1 {
-    height: fit-content;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 50%;
-  }
-  
-  .form2 {
-    height: fit-content;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 50%;
-  }
-  
-  .div_input {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-  
-  .div_input input, select {
-    height: 35px;
-  }
-  
-  .enviar_comunidad {
-    width: 90px;
-    height: 35px;
-    border-radius: 5px;
-    text-shadow: 30px;
-    border-color: white;
-    background-color: rgb(29, 170, 226);
-  }
 
-  .prueba {
-    background-color: purple;
-    border: 2px solid red;
-    
-      p {
-        background-color: blue;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+    .divSection3 {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      width: 100%;
+
+      .divComunidad {
+        width: 50%;
+        text-align: center;
+
+        .comunidad {
+          width: 100%;
+          height: 100%;
+        }
       }
-  }
 
-  .prueba2 {
-    background-color: rgb(4, 0, 255);
-    border: 4px dotted red;
+      .form_button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        width: 50%;
 
-      .titulonew {
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        border: 2px dotted rgb(7, 145, 13);
-        display: block;
+        .div_form_general {
+          height: fit-content;
+          display: flex;
+          gap: 20px;
+          width: 100%;
+
+          .form1 {
+            height: fit-content;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 50%;
+
+            .div_input {
+              display: flex;
+              flex-direction: column;
+              width: 100%;
+            }
+
+            .div_input input, select {
+              height: 50px;
+            }
+          }
+
+          .form2 {
+            height: fit-content;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 50%;
+
+
+            .div_input {
+              display: flex;
+              flex-direction: column;
+              width: 100%;
+            }
+
+            .div_input input, select {
+              height: 50px;
+            }
+          }
+        }
+
+        .enviar_comunidad {
+          width: 90px;
+          height: 35px;
+          border-radius: 5px;
+          text-shadow: 30px;
+          border-color: white;
+          background-color: rgb(29, 170, 226);
+        }
       }
+    }
   }
-
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   

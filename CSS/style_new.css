@@ -77,22 +77,99 @@
   height: 50px;
 }
 
-@media (max-width: 1100px) {
-  .mobile {
+/*INDEX*/
+/*SECTION 1*/
+@media (max-width: 1000px) {
+  .paisesResponse {
     display: block;
   }
-  .restSection1 {
+  .containerPlaces {
     display: none;
   }
 }
-@media (max-width: 1100px) {
+/*SECTION 2*/
+@media (max-width: 1000px) {
+  .section2 {
+    padding: 0 5%;
+    width: 100%;
+    height: 800px;
+  }
+  .section2 .divSection2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+  }
+  .section2 .divSection2 .divVideo {
+    width: 100%;
+    height: 100%;
+  }
+  .section2 .divSection2 .divVideo .video1 {
+    width: 100%;
+    height: 100%;
+  }
+  .section2 .divSection2 .text_video {
+    width: 100%;
+    height: auto;
+  }
+}
+/*SECTION 3*/
+@media (max-width: 1000px) {
+  .section3 {
+    width: 100%;
+  }
+  .section3 .divSection3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .section3 .divSection3 .divComunidad {
+    width: 100%;
+  }
+  .section3 .divSection3 .divComunidad .comunidad {
+    width: 100%;
+  }
+  .section3 .divSection3 .form_button {
+    width: 100%;
+  }
+}
+/*FOOTER*/
+@media (max-width: 1000px) {
+  .div_footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .div_footer .div_footer_enlaces {
+    text-align: center;
+  }
+}
+/*RESTAURANTE*/
+@media (max-width: 1000px) {
   .restSection1 {
     display: none;
   }
-  .mobile {
+  .mobileRestaurante {
     display: block;
   }
 }
+/*HOTELES*/
+@media (max-width: 1000px) {
+  .hotelSection1 {
+    display: none;
+  }
+  .section1Response {
+    display: block;
+  }
+}
+/*@media (max-width: 1100px) {
+  .restSection1 {
+    display: none;
+  }
+  .mobileRestaurante {
+    display: block;
+  }
+}
+
 @media (max-width: 1100px) {
   .containerPlaces {
     display: none;
@@ -108,6 +185,7 @@
     height: auto;
   }
 }
+
 @media (max-width: 1000px) {
   .divSection2 {
     flex-direction: column;
@@ -121,6 +199,7 @@
     height: 400px;
   }
 }
+
 @media (max-width: 800px) {
   .divSection3 {
     flex-direction: column;
@@ -134,13 +213,18 @@
     width: 80vw;
   }
 }
+
 @media (max-width: 800px) {
   .div_footer {
     display: block;
     text-align: center;
     gap: 200px;
   }
+} */
+.carousel {
+  text-align: center;
 }
+
 /*INDEX*/
 .section1 {
   margin-top: 5px;
@@ -153,11 +237,10 @@
   gap: 15px;
   width: 100%;
 }
-
-.bestPlaces {
+.containerPlaces .bestPlaces {
   background-color: rgb(217, 217, 217);
   border-radius: 15px;
-  padding: 10px;
+  padding: 25px;
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -165,37 +248,48 @@
   height: auto;
   margin-top: 10px;
 }
-
-.imgBestplaces {
+.containerPlaces .bestPlaces .imgBestplaces {
   border: 2px solid;
   width: 90%;
   height: 200px;
+}
+
+/*RESPONSIVE PAISES*/
+.paisesResponse {
+  margin: 4%;
+  display: none;
+}
+.paisesResponse .bestPlacesResponse {
+  background-color: rgb(217, 217, 217);
+  padding: 1%;
+  border-radius: 15px;
+}
+.paisesResponse .bestPlacesResponse .imgBestplacesResponse {
+  width: 300px;
+  margin-bottom: 15px;
 }
 
 .section2 {
   padding: 0 5%;
   margin-top: 50px;
   width: 100%;
+  height: 680px;
 }
-
-.divSection2 {
-  margin-top: 20px;
+.section2 .divSection2 {
   display: flex;
   gap: 20px;
   width: 100%;
+  height: 80%;
 }
-
-.divVideo {
+.section2 .divSection2 .divVideo {
   width: 60%;
   height: auto;
 }
-
-.video1 {
+.section2 .divSection2 .divVideo .video1 {
   width: 100%;
   height: 100%;
 }
-
-.text_video {
+.section2 .divSection2 .text_video {
   width: 40%;
   height: auto;
 }
@@ -204,66 +298,64 @@
   margin-top: 50px;
   padding: 0 5% 5%;
 }
-
-.divSection3 {
+.section3 .divSection3 {
   display: flex;
   justify-content: center;
   gap: 30px;
   width: 100%;
 }
-
-.divComunidad {
+.section3 .divSection3 .divComunidad {
   width: 50%;
   text-align: center;
 }
-
-.comunidad {
+.section3 .divSection3 .divComunidad .comunidad {
   width: 100%;
   height: 100%;
 }
-
-.form_button {
+.section3 .divSection3 .form_button {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
   width: 50%;
 }
-
-.div_form_general {
+.section3 .divSection3 .form_button .div_form_general {
   height: fit-content;
   display: flex;
   gap: 20px;
   width: 100%;
 }
-
-.form1 {
+.section3 .divSection3 .form_button .div_form_general .form1 {
   height: fit-content;
   display: flex;
   flex-direction: column;
   gap: 20px;
   width: 50%;
 }
-
-.form2 {
+.section3 .divSection3 .form_button .div_form_general .form1 .div_input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.section3 .divSection3 .form_button .div_form_general .form1 .div_input input, .section3 .divSection3 .form_button .div_form_general .form1 select {
+  height: 50px;
+}
+.section3 .divSection3 .form_button .div_form_general .form2 {
   height: fit-content;
   display: flex;
   flex-direction: column;
   gap: 20px;
   width: 50%;
 }
-
-.div_input {
+.section3 .divSection3 .form_button .div_form_general .form2 .div_input {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
-
-.div_input input, select {
-  height: 35px;
+.section3 .divSection3 .form_button .div_form_general .form2 .div_input input, .section3 .divSection3 .form_button .div_form_general .form2 select {
+  height: 50px;
 }
-
-.enviar_comunidad {
+.section3 .divSection3 .form_button .enviar_comunidad {
   width: 90px;
   height: 35px;
   border-radius: 5px;
@@ -272,33 +364,8 @@
   background-color: rgb(29, 170, 226);
 }
 
-.prueba {
-  background-color: purple;
-  border: 2px solid red;
-}
-.prueba p {
-  background-color: blue;
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-.prueba2 {
-  background-color: rgb(4, 0, 255);
-  border: 4px dotted red;
-}
-.prueba2 .titulonew {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  border: 2px dotted rgb(7, 145, 13);
-  display: block;
-}
-
 /*RESTAURANTES*/
 /*--RESTAURANTES--*/
-.imgResta {
-  border: 2px solid rgb(0, 0, 0);
-  height: 150px;
-  width: 150px;
-}
-
 .restSection1 {
   display: flex;
   justify-content: center;
@@ -307,70 +374,65 @@
   padding: 0 5%;
   margin-bottom: 5%;
 }
-
-.sec1paises {
+.restSection1 .sec1paises {
   background-color: rgb(217, 217, 217);
   border-radius: 15px;
   display: grid;
   grid-template-columns: 1fr, 1fr;
   grid-template-rows: auto;
-  gap: 20px;
 }
-
-.sec1paises h2:first-child {
+.restSection1 .sec1paises .articleRestaurantes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 6%;
+}
+.restSection1 .sec1paises .articleRestaurantes .imgResta {
+  border: 2px solid rgb(0, 0, 0);
+  margin-bottom: 5%;
+  height: 150px;
+  width: 180px;
+}
+.restSection1 .sec1paises h2:first-child {
   background-color: aqua;
   grid-column-start: span 2;
   grid-row-start: span 1;
   text-align: center;
 }
 
-.articleRestaurantes {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 0 4% 1% 4%;
-}
-
 /*RESPONSIVE Restaurantes*/
-.section1Response {
-  margin-bottom: 5%;
-}
-
-.mobile {
+.mobileRestaurante {
   display: none;
 }
 
-.carosuelBack {
+.restauranteResponse {
+  margin-bottom: 5%;
+  gap: 50px;
+}
+.restauranteResponse .carosuelBackResponse {
   margin: 0 5%;
+  margin-bottom: 4%;
 }
-
-.innerRespons {
-  width: 500px;
-  height: auto;
-  padding: 2%;
-  background-color: rgb(217, 217, 217);
-}
-
-.carousel h2 {
+.restauranteResponse .carosuelBackResponse h2 {
   background-color: aqua;
-  text-align: center;
   margin: 0;
+  padding: 5px;
 }
-
-#carouselExample2 {
-  margin-top: 20px;
+.restauranteResponse .carosuelBackResponse .innerRespons {
+  background-color: rgb(217, 217, 217);
+  padding-top: 10px;
 }
-
-/*RESTAURANTES*/
-/*--RESTAURANTES--*/
-.imgResta {
+.restauranteResponse .carosuelBackResponse .innerRespons .imgRestaResponse {
   border: 2px solid rgb(0, 0, 0);
-  height: 150px;
-  width: 150px;
+  margin-bottom: 5%;
+  height: 180px;
+  width: 260px;
 }
 
-.restSection1 {
+/* */
+/*HOTELES*/
+.hotelSection1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -378,8 +440,7 @@
   padding: 0 5%;
   margin-bottom: 5%;
 }
-
-.sec1paises {
+.hotelSection1 .sec1paises {
   background-color: rgb(217, 217, 217);
   border-radius: 15px;
   display: grid;
@@ -387,52 +448,200 @@
   grid-template-rows: auto;
   gap: 20px;
 }
-
-.sec1paises h2:first-child {
-  background-color: aqua;
-  grid-column-start: span 2;
-  grid-row-start: span 1;
-  text-align: center;
-}
-
-.articleRestaurantes {
+.hotelSection1 .sec1paises .articleHotel {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 0 4% 1% 4%;
 }
+.hotelSection1 .sec1paises .articleHotel .imgHotel {
+  border: 2px solid rgb(0, 0, 0);
+  height: 150px;
+  width: 150px;
+  margin-bottom: 4%;
+}
+.hotelSection1 .sec1paises h2:first-child {
+  background-color: aqua;
+  grid-column-start: span 2;
+  grid-row-start: span 1;
+  text-align: center;
+}
 
-/*RESPONSIVE Restaurantes*/
+/*RESPONSIVE HOTELES*/
 .section1Response {
   margin-bottom: 5%;
 }
-
-.mobile {
-  display: none;
+.section1Response .carosuelBackHotel {
+  margin: 2% 5%;
 }
-
-.carosuelBack {
-  margin: 0 5%;
+.section1Response .carosuelBackHotel h2 {
+  background-color: aqua;
+  margin-bottom: 0;
+  padding: 5px;
 }
-
-.innerRespons {
-  width: 500px;
-  height: auto;
+.section1Response .carosuelBackHotel .innerRespons {
   padding: 2%;
   background-color: rgb(217, 217, 217);
 }
-
-.carousel h2 {
-  background-color: aqua;
-  text-align: center;
-  margin: 0;
+.section1Response .carosuelBackHotel .innerRespons .articleHotelResponse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 4% 1% 4%;
 }
-
-#carouselExample2 {
-  margin-top: 20px;
+.section1Response .carosuelBackHotel .innerRespons .articleHotelResponse .imgHotelResponse {
+  border: 2px solid rgb(0, 0, 0);
+  height: 180px;
+  width: 260px;
 }
 
 /*ACTIVIDADES*/
+/*BREAKPOINTS*/
+/*INDEX*/
+/*SECTION 1*/
+@media (max-width: 1000px) {
+  .paisesResponse {
+    display: block;
+  }
+  .containerPlaces {
+    display: none;
+  }
+}
+/*SECTION 2*/
+@media (max-width: 1000px) {
+  .section2 {
+    padding: 0 5%;
+    width: 100%;
+    height: 800px;
+  }
+  .section2 .divSection2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+  }
+  .section2 .divSection2 .divVideo {
+    width: 100%;
+    height: 100%;
+  }
+  .section2 .divSection2 .divVideo .video1 {
+    width: 100%;
+    height: 100%;
+  }
+  .section2 .divSection2 .text_video {
+    width: 100%;
+    height: auto;
+  }
+}
+/*SECTION 3*/
+@media (max-width: 1000px) {
+  .section3 {
+    width: 100%;
+  }
+  .section3 .divSection3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .section3 .divSection3 .divComunidad {
+    width: 100%;
+  }
+  .section3 .divSection3 .divComunidad .comunidad {
+    width: 100%;
+  }
+  .section3 .divSection3 .form_button {
+    width: 100%;
+  }
+}
+/*FOOTER*/
+@media (max-width: 1000px) {
+  .div_footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .div_footer .div_footer_enlaces {
+    text-align: center;
+  }
+}
+/*RESTAURANTE*/
+@media (max-width: 1000px) {
+  .restSection1 {
+    display: none;
+  }
+  .mobileRestaurante {
+    display: block;
+  }
+}
+/*HOTELES*/
+@media (max-width: 1000px) {
+  .hotelSection1 {
+    display: none;
+  }
+  .section1Response {
+    display: block;
+  }
+}
+/*@media (max-width: 1100px) {
+  .restSection1 {
+    display: none;
+  }
+  .mobileRestaurante {
+    display: block;
+  }
+}
+
+@media (max-width: 1100px) {
+  .containerPlaces {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  .bestPlaces {
+    padding: 0 8% 2% 8%;
+  }
+  .imgBestplaces {
+    width: 80%;
+    height: auto;
+  }
+}
+
+@media (max-width: 1000px) {
+  .divSection2 {
+    flex-direction: column;
+  }
+  .text_video {
+    width: 100%;
+    height: auto;
+  }
+  .divVideo {
+    width: 100%;
+    height: 400px;
+  }
+}
+
+@media (max-width: 800px) {
+  .divSection3 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .divComunidad {
+    width: 70svw;
+  }
+  .form_button {
+    width: 80vw;
+  }
+}
+
+@media (max-width: 800px) {
+  .div_footer {
+    display: block;
+    text-align: center;
+    gap: 200px;
+  }
+} */
 
 /*# sourceMappingURL=style_new.css.map */

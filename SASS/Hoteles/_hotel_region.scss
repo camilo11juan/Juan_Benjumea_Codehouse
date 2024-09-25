@@ -1,5 +1,5 @@
 
-.restSection1 {
+.hotelSection1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,135 +15,62 @@
     grid-template-rows: auto;
     gap: 20px;
 
-    .articleHoteles {
+    .articleHotel {
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
       padding: 0 4% 1% 4%;
 
-      .imgHoteles {
+      .imgHotel {
         border: 2px solid rgb(0, 0, 0);
         height: 150px;
         width: 150px;
+        margin-bottom: 4%;
       }
     }
   }
-
   .sec1paises h2:first-child {
     background-color: aqua;
     grid-column-start: span 2;
     grid-row-start: span 1;
     text-align: center;
   }
+
 }
 
 
-  /*RESPONSIVE Restaurantes*/
+  /*RESPONSIVE HOTELES*/
 .section1Response {
   margin-bottom: 5%;
 
-&.mobile {
-  display: none;
-  
-  #carouselExample {
-    margin-top: 20px;
+  .carosuelBackHotel {
+    margin: 2% 5%;
 
-  &.carosuelBack {
-    margin: 0 5%;
+    h2 {
+      background-color: aqua;
+      margin-bottom: 0;
+      padding: 5px;
+    }
     
-  &.carousel h2 {
-    background-color: aqua;
-    text-align: center;
-    margin: 0;
-
     .innerRespons {
-      width: 500px;
-      height: auto;
       padding: 2%;
       background-color: rgb(217, 217, 217);
 
-      .articleHoteles {
+      .articleHotelResponse {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         padding: 0 4% 1% 4%;
 
-        .imgHoteles {
+        .imgHotelResponse {
           border: 2px solid rgb(0, 0, 0);
-          height: 150px;
-          width: 150px;
-        }
-      }
-      
-      .articleHoteles {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        padding: 0 4% 1% 4%;
-
-        .imgHoteles {
-          border: 2px solid rgb(0, 0, 0);
-          height: 150px;
-          width: 150px;
+          height: 180px;
+          width: 260px;
         }
       }
 
     }
   }
   } 
-  }
-} 
-}  
-  
-
-.section1Response {
-  margin-bottom: 5%;
-
-&.mobile {
-  display: none;
-
-
-  #carouselExample2 {
-    margin-top: 20px;
-
-  &.carosuelBack {
-    margin: 0 5%;
-
-  &.carousel h2 {
-    background-color: aqua;
-    text-align: center;
-    margin: 0;
-  
-    .innerRespons {
-      width: 500px;
-      height: auto;
-      padding: 2%;
-      background-color: rgb(217, 217, 217);
-
-      .articleHoteles {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        padding: 0 4% 1% 4%;
-
-        .imgHoteles {
-          border: 2px solid rgb(0, 0, 0);
-          height: 150px;
-          width: 150px;
-        }
-      }
-    
-    }
-  }  
-  }
-  }
-}
-}  
-  
-  
-  
-  

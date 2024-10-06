@@ -22,6 +22,10 @@
   .ul_nav_header li {
     flex: 1;
     border: 2px solid rgb(29, 170, 226);
+
+    a {
+      text-decoration: none;
+    }
   }
   
   

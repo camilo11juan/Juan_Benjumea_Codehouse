@@ -112,6 +112,41 @@
 }
 
 
+/* Actividades*/
+
+@media (max-width: 800px) {
+  
+  /*Primera parte de "Actividades"*/
+
+  #mainActividad .section1Actividades {
+    display: none;
+  }
+
+  .section1ActividadesResp {
+    display: block;
+  }
+
+
+
+
+  /*Actividades en cada pais*/
+
+  .actividadRiel {
+    display: flex;
+    flex-direction: column;
+
+    .paisActividades {
+      border: 2px solid yellow;
+
+      .actividadIMG {
+          width: 200px;
+          height: 200px;
+      }
+    }
+  }
+}
+
+
 
   /*@media (max-width: 1100px) {
     .restSection1 {

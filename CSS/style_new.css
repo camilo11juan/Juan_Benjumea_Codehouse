@@ -161,6 +161,28 @@
     display: block;
   }
 }
+/* Actividades*/
+@media (max-width: 800px) {
+  /*Primera parte de "Actividades"*/
+  #mainActividad .section1Actividades {
+    display: none;
+  }
+  .section1ActividadesResp {
+    display: block;
+  }
+  /*Actividades en cada pais*/
+  .actividadRiel {
+    display: flex;
+    flex-direction: column;
+  }
+  .actividadRiel .paisActividades {
+    border: 2px solid yellow;
+  }
+  .actividadRiel .paisActividades .actividadIMG {
+    width: 200px;
+    height: 200px;
+  }
+}
 /*@media (max-width: 1100px) {
   .restSection1 {
     display: none;
@@ -322,7 +344,7 @@
 .section3 .divSection3 .form_button .div_form_general {
   height: fit-content;
   display: flex;
-  gap: 20px;
+  gap: 10px;
   width: 100%;
 }
 .section3 .divSection3 .form_button .div_form_general .form1 {
@@ -471,6 +493,7 @@
 /*RESPONSIVE HOTELES*/
 .section1Response {
   margin-bottom: 5%;
+  display: none;
 }
 .section1Response .carosuelBackHotel {
   margin: 2% 5%;
@@ -498,6 +521,100 @@
 }
 
 /*ACTIVIDADES*/
+#mainActividad .tituloActividades {
+  text-align: center;
+  margin-top: 20px;
+}
+#mainActividad .section1Actividades {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+}
+#mainActividad .section1Actividades .actividad {
+  flex: 1;
+  text-align: center;
+  background-color: rgb(217, 217, 217);
+  border-radius: 10px;
+}
+#mainActividad .section1Actividades .actividad .sec1ActImg {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  width: 100%;
+  height: 70%;
+  border: 1px solid gray;
+}
+#mainActividad .section1Actividades .actividad p {
+  font-size: 20px;
+  color: rgb(42, 105, 199);
+  text-decoration: none;
+}
+#mainActividad .section1Actividades .actividad a {
+  text-decoration: none;
+}
+#mainActividad .section1Actividades .lugarTitulo {
+  font-size: larger;
+  font-weight: bold;
+  margin: 0;
+}
+#mainActividad .actividadesLugares {
+  padding: 35px;
+  gap: 105px;
+  width: 100%;
+}
+#mainActividad .actividadesLugares .actividadGeneral {
+  margin-top: 10px;
+  width: 100%;
+  margin-bottom: 35px;
+}
+#mainActividad .actividadesLugares .actividadGeneral .actividadRiel {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+}
+#mainActividad .actividadesLugares .actividadGeneral .actividadRiel .paisActividades {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 2px solid rgb(217, 217, 217);
+  border-radius: 10px;
+  padding: 10px;
+  flex: 1;
+  width: 100%;
+}
+#mainActividad .actividadesLugares .actividadGeneral .actividadRiel .paisActividades .actividadIMG {
+  border-radius: 10px;
+  margin-bottom: 10px;
+  width: 80%;
+  height: 50%;
+}
+#mainActividad .actividadesLugares .actividadGeneral h2 {
+  font-weight: bold;
+}
+
+/* Response  */
+.section1ActividadesResp {
+  display: none;
+  padding: 20px;
+}
+.section1ActividadesResp .actividadResp {
+  border-radius: 10px;
+  background-color: rgb(217, 217, 217);
+  gap: 20px;
+}
+.section1ActividadesResp .actividadResp .sec1ActImgResp {
+  width: 100%;
+  height: 230px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.section1ActividadesResp .lugarTituloResp {
+  margin-top: 10px;
+  font-size: larger;
+  font-weight: bold;
+}
+
 /*BREAKPOINTS*/
 /*INDEX*/
 /*SECTION 1*/
@@ -581,6 +698,28 @@
   }
   .section1Response {
     display: block;
+  }
+}
+/* Actividades*/
+@media (max-width: 800px) {
+  /*Primera parte de "Actividades"*/
+  #mainActividad .section1Actividades {
+    display: none;
+  }
+  .section1ActividadesResp {
+    display: block;
+  }
+  /*Actividades en cada pais*/
+  .actividadRiel {
+    display: flex;
+    flex-direction: column;
+  }
+  .actividadRiel .paisActividades {
+    border: 2px solid yellow;
+  }
+  .actividadRiel .paisActividades .actividadIMG {
+    width: 200px;
+    height: 200px;
   }
 }
 /*@media (max-width: 1100px) {

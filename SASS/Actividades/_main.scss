@@ -1,0 +1,115 @@
+#mainActividad {
+
+.tituloActividades {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.section1Actividades {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    
+
+        .actividad {
+            flex: 1;
+            text-align: center;
+            background-color: rgb(217, 217, 217);
+            border-radius: 10px;
+
+                .sec1ActImg {
+                    margin-bottom: 20px;
+                    border-radius: 10px;
+                    width: 100%;
+                    height: 70%;
+                    border: 1px solid gray;
+                }
+
+                p {
+                    font-size:20px;
+                    color: rgb(42, 105, 199) ;
+                    text-decoration: none;
+                }
+                a {
+                    text-decoration: none;
+                }
+        }
+
+        .lugarTitulo {
+            font-size:larger;
+            font-weight: bold;
+            margin: 0;
+        }
+}
+
+
+.actividadesLugares {
+    padding: 35px;
+    gap: 105px;
+    width: 100%;
+
+    .actividadGeneral {
+        margin-top: 10px;
+        width: 100%;
+        margin-bottom: 35px;
+  
+
+        .actividadRiel {
+            display: flex;
+            gap: 30px;
+            width: 100%;
+
+            .paisActividades {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                border: 2px solid rgb(217, 217, 217);
+                border-radius: 10px;
+                padding: 10px;
+                flex: 1;
+                width: 100%;
+
+                .actividadIMG {
+                    border-radius: 10px;
+                    margin-bottom: 10px;
+                    width: 80%;
+                    height: 50%;
+                }
+            }
+        }
+
+        h2 {
+            font-weight: bold;
+        }
+    }
+}
+}
+
+/* Response  */
+.section1ActividadesResp {
+    display: none;
+    padding: 20px;
+
+    .actividadResp {
+        border-radius: 10px;
+        background-color: rgb(217, 217, 217);
+        gap: 20px;
+
+
+        .sec1ActImgResp {
+
+            width: 100%;
+            height: 230px;
+            border: 1px solid gray;
+            border-radius: 10px;
+        }
+    }
+
+    .lugarTituloResp {
+        margin-top: 10px;
+        font-size:larger;
+        font-weight: bold;
+    }
+}
